@@ -17,3 +17,6 @@ Cypress Installation and project setup
 14. Understand side press test writing principles
 15. Create first cypress test case (\yourfolderproject\cypress\integration\examples)
 16. Understand how to run test from test runner and command line
+
+If you want to integrate your report Cypress with Github you can install github integration in cypress dashboard
+as example like i made in branch github.
