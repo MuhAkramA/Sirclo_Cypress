@@ -7,6 +7,6 @@ describe('Quality Assurance on Simple Factorial Web App', function() {
     cy.visit("http://z29vzcbmaw5kaw5nigzvcib5b3u.prospace.io/");
     cy.get('#number').type('a') ///string type data
     cy.get('#getFactorial').click()
-    cy.get('#resultDiv').should('be.visible','Please enter an integer')
+    cy.get('#resultDiv').should('be.visible').contains('Please enter an integer')
   })
   })
