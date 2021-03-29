@@ -18,4 +18,4 @@ Cypress Installation and project setup
 16. Understand how to run test from test runner and command line
 
 If you want to integrate your report Cypress with Github you can install github integration in cypress dashboard
-as example like i made in branch github.
+as example like i made in branch Gitintegration.
