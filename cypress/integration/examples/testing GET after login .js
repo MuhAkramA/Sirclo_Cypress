@@ -8,5 +8,7 @@ describe('Quality Assurance on Sirclo', function() {
     cy.get('[type="text"]').type("root")
     cy.get('[type="password"]').type("root123")
     cy.get('[type="submit"]').click()
+    cy.get('h1').should('contain', 'Welcome!')
+    
   })
 })
