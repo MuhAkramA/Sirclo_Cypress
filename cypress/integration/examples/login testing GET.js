@@ -7,6 +7,6 @@ describe('Quality Assurance on Sirclo', function() {
     cy.visit("http://qa-interview.srcli.xyz/login")
     cy.get('[type="text"]').type("root")
     cy.get('[type="password"]').type("root123")
-    cy.get('[type="submit"]').type()
+    cy.get('[type="submit"]').click()
   })
 })
